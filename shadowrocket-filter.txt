@@ -2,10 +2,8 @@ DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,baidubcr.com,DIRECT
 DOMAIN-SUFFIX,bdstatic.com,DIRECT
 DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
-# Alibaba
 DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,alicdn.com,DIRECT
-# Accelerate most visited sites
 DOMAIN,blzddist1-a.akamaihd.net,DIRECT
 DOMAIN,cdn.angruo.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
@@ -418,12 +416,10 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
-# Clubhouse
 DOMAIN-SUFFIX,clubhouseapi.com,PROXY
 DOMAIN-SUFFIX,clubhouse.pubnub.com,PROXY
 DOMAIN-SUFFIX,joinclubhouse.com,PROXY
 DOMAIN-SUFFIX,ap3.agora.io,PROXY
-# Top blocked sites
 DOMAIN-KEYWORD,aka,PROXY
 DOMAIN-KEYWORD,facebook,PROXY
 DOMAIN-KEYWORD,youtube,PROXY
@@ -524,10 +520,8 @@ DOMAIN-SUFFIX,fast.com,PROXY
 DOMAIN-SUFFIX,nflxvideo.net,PROXY
 DOMAIN-SUFFIX,linkedin.com,PROXY
 DOMAIN-SUFFIX,licdn.com,PROXY
-# SoundCloud
 DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
-# Telegram
 DOMAIN-SUFFIX,t.me,PROXY
 DOMAIN-SUFFIX,tdesktop.com,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
@@ -544,7 +538,6 @@ IP-CIDR,149.154.160.0/20,PROXY
 IP6-CIDR,2001:B28:F23D::/48,PROXY
 IP6-CIDR,2001:B28:F23F::/48,PROXY
 IP6-CIDR,2001:67C:4E8::/48,PROXY
-# DNS Leak
 DOMAIN-SUFFIX,dnsleaktest.com,PROXY
 DOMAIN-SUFFIX,dnsleak.com,PROXY
 DOMAIN-SUFFIX,expressvpn.com,PROXY
@@ -557,12 +550,9 @@ DOMAIN-SUFFIX,browserleaks.org,PROXY
 DOMAIN-SUFFIX,vpnunlimited.com,PROXY
 DOMAIN-SUFFIX,whoer.net,PROXY
 DOMAIN-SUFFIX,whrq.net,PROXY
-# LAN
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
-# China
 GEOIP,CN,DIRECT
-# Final
 FINAL,PROXY
